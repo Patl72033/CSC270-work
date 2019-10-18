@@ -2,4 +2,5 @@ import scala.io.Source
 
 :load utilities.sc
 
-val myLines: Vector[String] = loadFile("text/Aristotle_Politics.txt")
+val GrimmLines: Vector[String] = loadFile("text/GrimmFairyTales.txt")
+showMe(GrimmLines)
