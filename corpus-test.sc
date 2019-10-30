@@ -9,7 +9,7 @@ import scala.annotation.tailrec
 
 println("\n\n\n\n")
 
-/* Test: 
+/* Test:
 		Edit this script, replacing 'xxxx' with something else,
 		so the script runs and gives good data.
 
@@ -19,16 +19,16 @@ println("\n\n\n\n")
 
 
 // Test thing…
-val lib: CiteLibrary = loadLibrary("text/xxxx.cex")
+val lib: CiteLibrary = loadLibrary("text/gft.cex")
 
 val tr: TextRepository = lib.textRepository.get
 
 val corp: Corpus = tr.corpus
 
 // Test things…
-val nodes: Vector[xxxx] = corp.nodes
+val nodes: Vector[CitableNode] = corp.nodes
 
-val howManyNodes: Int = xxxx
+val howManyNodes: Int = nodes.length
 
 val corpusUrns: Vector[CtsUrn] = xxxx
 
@@ -37,4 +37,3 @@ val firstNode: CitableNode = xxxx
 val firstNodeUrn: CtsUrn = xxxx
 
 val firstNodeText: String = xxxxx
-
