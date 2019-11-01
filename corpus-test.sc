@@ -28,12 +28,12 @@ val corp: Corpus = tr.corpus
 // Test things…
 val nodes: Vector[CitableNode] = corp.nodes
 
-val howManyNodes: Int = nodes.length
+val howManyNodes: Int = nodes.size
 
-val corpusUrns: Vector[CtsUrn] = xxxx
+val corpusUrns: Vector[CtsUrn] = corp.urns
 
-val firstNode: CitableNode = xxxx
+val firstNode: CitableNode = corp.first
 
-val firstNodeUrn: CtsUrn = xxxx
+val firstNodeUrn: CtsUrn = firstNode.urn
 
-val firstNodeText: String = xxxxx
+val firstNodeText: String = firstNode.text

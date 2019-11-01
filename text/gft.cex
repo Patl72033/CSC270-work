@@ -9,7 +9,7 @@ license#CC Share Alike.  For details, see more info.
 
 #!ctscatalog
 urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
-urn:cts:fuTexts:GROUP.WORK.VERSION:#CITATION-SCHEME#NAME-OF-GROUP#TITLE-OF-WORK#INFO-ABOUT-VERSION##true#eng
+urn:cts:fuTexts:grimms.tales.lyle:#tale/paragraph#Grimms#Tales#Frances Jenkins Olcott, editor, 1927##true#eng
 
 #!ctsdata
 urn:cts:fuTexts:grimms.tales.lyle:1.1#THE GOLDEN BIRD
