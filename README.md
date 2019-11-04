@@ -15,12 +15,14 @@ This repository is an SBT-based project running Scala code. All elements should 
 ####Requirements
 - A Java JDK 1.8 or higher.
 - SBT Installed and on the PATH.
+
 ####Running
 - Clone this repository.
 - Navigate to this repository's root level.
 - `$ sbt console`
 - `scala> :load scripts/corpus-char-validation.sc
 etc.`
+
 ###Character Validation
 This text has been validated against a specific character set using a [Scala Script](https://github.com/Patl72033/CSC270-work/blob/master/corpus-char-validate.sc). A complete listing of the character library for the text follows, along with corresponding hexidecimal unicode values:
 
