@@ -2,28 +2,33 @@
 A citable digital edition
 **Status**: In progress.
 
-###Bibliography
+### Bibliography
+
 Text: `urn:cts:fuTexts:grimms.tales.lyle:`
 
 Plain-text, citable edition following the protocols of the [CITE Architecture](http://cite-architecture.org/)
 
 Edited 11/4/2019
 
-###Running Scripts for Validation, Publication, and Analysis
+### Running Scripts for Validation, Publication, and Analysis
+
 This repository is an SBT-based project running Scala code. All elements should be independently reproducible.
 
-####Requirements
+#### Requirements
+
 - A Java JDK 1.8 or higher.
 - SBT Installed and on the PATH.
 
-####Running
+#### Running
+
 - Clone this repository.
 - Navigate to this repository's root level.
 - `$ sbt console`
 - `scala> :load scripts/corpus-char-validation.sc
 etc.`
 
-###Character Validation
+### Character Validation
+
 This text has been validated against a specific character set using a [Scala Script](https://github.com/Patl72033/CSC270-work/blob/master/corpus-char-validate.sc). A complete listing of the character library for the text follows, along with corresponding hexidecimal unicode values:
 
 | Character | Character | Character | Character | Character |
@@ -44,5 +49,6 @@ This text has been validated against a specific character set using a [Scala Scr
 | `w` (77) | `x` (78) | `y` (79) | `z` (7a) | `‘` (2018) |
 | `’` (2019) | `“` (201c) | `”` (201d) |
 
-###Spelling Validation
+### Spelling Validation
+
 The text will be corrected for spelling against two files: a standard English word list, and a user-dictionary.
