@@ -30,7 +30,7 @@ etc.`
 
 ### Character Validation
 
-This text has been validated against a specific character set using a [Scala Script](https://github.com/Patl72033/CSC270-work/blob/master/corpus-char-validate.sc). A complete listing of the character library for the text follows, along with corresponding hexidecimal unicode values:
+This text has been validated against a specific character set using a [Scala Script](https://github.com/Patl72033/CSC270-work/blob/master/corpus-char-validate.sc). A complete listing of the character library for the text follows, along with corresponding hexadecimal unicode values:
 
 | Character | Character | Character | Character | Character |
 |-----------|-----------|-----------|-----------|-----------|
