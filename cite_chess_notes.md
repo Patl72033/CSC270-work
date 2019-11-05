@@ -61,6 +61,6 @@ urn:cite2:fuChess:position.v1:345
 
 - Of **positions** there are two instantiations… one considered absolutely, with no context, and one considered in the context of a game. These should be separated. For example, for a given *position*, *en-passant* is available *only if* a pawn has *just* made a two-square move; this is determined by the progress of the game, so *en-passant-target* needs to be separate data from a *Position* Object.
 - No one else seems to think it is worth retaining the initial identity of pieces. So even thought a Pawn begins as King's Bishop's Pawn, that information is not retained. This makes sense, I guess, in environments where you start from an arbitrary point in the game, where the history of all prior moves is not important.
-
+- This will take *a lot of work*. No doubt about it. 
 
 
