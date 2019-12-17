@@ -50,6 +50,4 @@ This text has been validated against a specific character set using a [Scala Scr
 | `w` (77) | `x` (78) | `y` (79) | `z` (7a) | `‘` (2018) |
 | `’` (2019) | `“` (201c) | `”` (201d) |
 
-### Spelling Validation
-
-The text will be corrected for spelling against two files: a standard English word list, and a user-dictionary.
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
